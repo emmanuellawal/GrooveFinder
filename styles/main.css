@@ -19,9 +19,21 @@ giving its url and position */
 
 /* Styling the list tags to the 
 right of the navigation bar */
-#nav li {
-    float: right;
-    list-style: none;
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 /* Styling the anchor tags of 

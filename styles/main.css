@@ -19,14 +19,14 @@ giving its url and position */
 
 /* Styling the list tags to the 
 right of the navigation bar */
-.nav li {
+#nav li {
     float: right;
     list-style: none;
 }
 
 /* Styling the anchor tags of 
 the navigation bar */
-.nav a {
+#nav a {
     list-style: none;
     height: 50px;
     line-height: 50px;

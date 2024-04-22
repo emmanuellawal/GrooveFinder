@@ -18,7 +18,7 @@ giving its url and position */
 }
 
 /* Styling the list tags to the 
-right of the navigation bar */
+right of the navigation bar 
 #nav_menu ul ul {
     display: none;
     position: absolute;
@@ -35,61 +35,30 @@ right of the navigation bar */
     clear: both;
     display: block;
 }
-
-/* Styling the anchor tags of 
+Styling the anchor tags of 
 the navigation bar */
-#nav a {
-    list-style: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1rem;
-    font-weight: 550;
-    display: block;
-    padding: 5px 35px;
-    color: black;
-    text-decoration: none;
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
 
-/* Giving position and margin 
-to the content-div */
-.content {
-    width: 100%;
-    position: absolute;
-    top: 45%;
+ul {
+    list-style-type: none;
+    text-align: center;
 }
 
-/* Styling the left-col by 
-giving margin */
-.left-col {
-    margin-left: 11%;
-}
-
-/* Styling the my sound placed 
-in the left-col */
-.left-col h1 {
-    font-size: 50px;
-    color: crimson;
-}
-
-/* Styling the right-col */
-.right-col {
-    float: right;
-    margin-right: 10%;
-    margin-top: -5%;
-    display: flex;
-    align-items: center;
-}
-
-/* Styling the text in the right-col */
-.right-col p {
-    font-size: 21px;
-    color: black;
-    font-weight: 650;
+li {
+    display: inline;
     margin-right: 20px;
 }
 
-/* Styling the cursor type 
-of the icon to pointer */
-#icon {
-    cursor: pointer;
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling for hover effect */
+a:hover {
+    text-decoration: underline;
 }

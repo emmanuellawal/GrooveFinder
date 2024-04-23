@@ -3,20 +3,6 @@
     margin: 0;
 }
 
-/* Styling the background image by 
-giving its url and position */
-.container {
-    height: 100vh;
-    width: 100%;
-    background-image: url(
-'https://media.geeksforgeeks.org/wp-content/uploads/20210402235143/background.jpg');
-
-    /* Image used: */
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
 /* Styling the list tags to the 
 right of the navigation bar 
 #nav_menu ul ul {
@@ -37,6 +23,7 @@ right of the navigation bar
 }
 Styling the anchor tags of 
 the navigation bar */
+
 nav {
     background-color: #333;
     color: #fff;

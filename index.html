@@ -11,22 +11,29 @@
 
 <body>
 	<header> <img src="images/sitelogo.jpg" alt="GrooveFinder Logo" height="80">
-		<h2>GrooveFinder</h2>
 		<h3>Where music finds You</h3>
 	</header>
-	<nav id="nav">
-		<ul>
-			<li><a href="../index.html" class="current">Home</a></li>
-			<li><a href="links/genre.html">Genres</a></li>
-			<li><a href="#">Languages</a></li>
-			<li><a href="links/login.html">Login/Signup</a></li>
-			<li><a href="#">About Us</a>
-				<ul>
-					<li><a href="#">What is GrooveFinder?</a></li>
-					<li><a href="links/contact.html">Contact</a></li>
-				</ul>
-			</li>
-		</ul>
+	<nav class="navbar">
+		<div class="navbar_container">
+			<a href="index.html" id="navbar_logo">GrooveFinder</a>
+			<div class="navbar_toggle" id="mobile-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<ul class="navbar_menu">
+				<li class="navbar_item"><a href="../index.html" class="navbar_links">Home</a></li>
+				<li class="navbar_item"><a href="links/genre.html" class="navbar_links">Genres</a></li>
+				<li class="navbar_item"><a href="#" class="navbar_links">Languages</a></li>
+				<li class="navbar_btn"><a href="links/login.html" class="button">Login/Signup</a></li>
+				<li class="navbar_item"><a href="#" class="navbar_links">About Us</a>
+					<ul>
+						<li><a href="#">What is GrooveFinder?</a></li>
+						<li><a href="links/contact.html">Contact</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 	</nav>
 </body>
 
